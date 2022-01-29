@@ -3,17 +3,17 @@ body {
     flex-direction: column;
     height: 100%;
     margin:0;
-    background-image: url('../images/pexels-eneida-nieves-905847.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    backdrop-filter: blur(3px);
+}    
 
 
 html {
     height: 100%;
-    
+    background-image: url('../images/pexels-eneida-nieves-905847.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -39,7 +39,6 @@ html {
     display:flex;
     flex-grow: 1;
     justify-content: center;
-
 }
 
 .hours {
