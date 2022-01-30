@@ -38,8 +38,8 @@ html {
 .content {
     display:flex;
     flex-grow: 1;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 32px;
 }
 
 .hours {
@@ -63,6 +63,9 @@ html {
     color: white;
     padding: 20px;
     width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
 }
 
 /* .about{
