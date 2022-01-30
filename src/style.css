@@ -39,6 +39,7 @@ html {
     display:flex;
     flex-grow: 1;
     justify-content: center;
+    margin-bottom: 32px;
 }
 
 .hours {
@@ -64,16 +65,16 @@ html {
     width: 65%;
 }
 
-.about{
+/* .about{
     margin-bottom: 5rem;
-}
+} */
 
 .content-container h1 {
     color: white;
-    padding: 20px;
+    padding: 20px 20px 52px 20px;
     width: 500px;
     text-align: center;
-    margin-bottom: 2rem;
+    
     border-bottom: 2px solid rgb(167,130,93);
 }
 
@@ -84,7 +85,7 @@ html {
     width: 500px;
     margin-top: 2rem;
     color: white;
-    padding: 20px;
+    padding: 20px 20px 52px 20px;
     border-bottom: 2px solid rgb(167,130,93);
 }
 
