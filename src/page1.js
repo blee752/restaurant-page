@@ -3,7 +3,7 @@
 function page1Builder() {
 //reference to the DOM
 const content = document.querySelector('.content');
-
+content.replaceChildren();
 
 //header
 const headerDiv = document.createElement('div');
