@@ -9,7 +9,7 @@ body {
 
 html {
     height: 100%;
-    background-image: url('../images/pexels-eneida-nieves-905847.jpg');
+    background-image: url('./images/pexels-eneida-nieves-905847.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@ html {
 }
 
 
-
+/* header css */
 .nav {
     list-style-type: none;
     display: flex;
@@ -35,6 +35,8 @@ html {
     color: white;
 }
 
+
+/* content css */
 .content {
     display:flex;
     flex-grow: 1;
@@ -66,11 +68,10 @@ html {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 32px;
+    max-height: 717.5px;
+    overflow-y: auto;
 }
 
-/* .about{
-    margin-bottom: 5rem;
-} */
 
 .content-container h1 {
     color: white;
@@ -104,6 +105,9 @@ html {
 }
 
 
+
+
+/* footer css */
 .footer{
     display: flex;
     text-align: center;
@@ -116,6 +120,7 @@ html {
     color: white;
     padding: 20px; 
 }
+
 
 .footer h3{
     margin: 0px;
@@ -138,3 +143,35 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+
+
+/* page2 css */
+ .item {
+     display: flex;
+     flex-direction: column;
+     flex:auto;
+     width: 100%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 40px;
+ }
+
+ .item-description {
+    display: flex;
+    flex: 1 auto;
+    width: 50%;
+    /* justify-content: space-between; */
+ }
+
+ .underline {
+/*      background-color: rgb(167,130,93);
+ */     border-bottom: 2px dotted rgb(167,130,93);
+     height: 1px;
+     flex: 1 100%;
+     align-self: center;
+     margin: 0px 10px 0px 10px;
+ }
+
+/* page3 css */
