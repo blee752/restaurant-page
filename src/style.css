@@ -41,7 +41,7 @@ html {
     display:flex;
     flex-grow: 1;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .hours {
@@ -175,3 +175,23 @@ a:visited {
  }
 
 /* page3 css */
+
+.location, .number, .form-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.fas {
+    font-size: 1.5rem;
+}
+
+
+.location, .number p{
+    font-size: 1.5rem;
+}
+
+input {
+    display:block;
+}

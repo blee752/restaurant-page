@@ -10,6 +10,7 @@ import pizza from './images/1219-Elena-Apres-Pizza-al-Taglio-With-Onion-5.jpg';
 
 import { page1Builder } from './page1';
 import { page2Builder } from './page2';
+import { page3Builder } from './page3';
 //needs function to wipe DOM. 
 //add event listeners on the page links
 //event listeners need to wipe, then call module function
@@ -17,7 +18,7 @@ import { page2Builder } from './page2';
 
 window.onload = function () {
     console.log('shouldnt run page 1');
-/*     page1Builder(); */
+    page1Builder();
     addHeaderEvents();
 
 };
@@ -39,7 +40,7 @@ function addHeaderEvents() {
                 page1Builder();
             }
             else {
-                //page3builder();
+                page3Builder();
             }
             addHeaderEvents();
         })
